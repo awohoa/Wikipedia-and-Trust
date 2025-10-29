@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.28)  28 OCT 2025 22:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.28)  29 OCT 2025 10:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -697,11 +697,15 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 3652.
 )
 Class acmart Info: Suppressing bibformat on input line 11.
+
+
+Class acmart Warning: Do not put several authors in the same \author macro! on 
+input line 40.
+
 Package hyperref Info: Option `colorlinks' set `true' on input line 56.
 Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 56.
 
 \c@theorem=\count334
-
 (C:\Users\jackf\AppData\Local\Programs\MiKTeX\tex/latex/preprint\balance.sty
 Package: balance 1999/02/23 4.3 (PWD)
 \oldvsize=\dimen257
@@ -1071,14 +1075,7 @@ LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 25.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 7.0pt on input line 25.
-
-(C:\Users\jackf\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-pdfdoc.d
-ef
-File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
-)
-(C:\Users\jackf\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-utf8.def
-File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
-) [2.2])
+[2.2])
 
 Package natbib Warning: There were undefined citations.
 
@@ -1089,41 +1086,42 @@ Class acmart Warning: ACM reference format is mandatory
 (acmart)              \settopmatter command..
 
 
+Class acmart Warning: CCS concepts are mandatory for papers over two pages.
 
 
 
-[3.3]
 
-LaTeX Warning: Hook 'shipout/lastpage' executed on wrong page (2 not 3).
-               Rerun to correct this.
 
-(main.aux)
+
+(C:\Users\jackf\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-pdfdoc.d
+ef
+File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
+)
+(C:\Users\jackf\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-utf8.def
+File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
+) [3.3] (main.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-10-09>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 8C8B31A8B1DA3F789A61B4CE17BC457A;3863.
  ) 
 Here is how much of TeX's memory you used:
  20927 strings out of 468079
- 341001 string characters out of 5425750
- 835129 words of memory out of 5000000
+ 340341 string characters out of 5425750
+ 828430 words of memory out of 5000000
  48837 multiletter control sequences out of 15000+600000
  740754 words of font info for 228 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 90i,12n,131p,1003b,641s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,12n,131p,1003b,647s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/jackf/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/Li
 nBiolinumT.pfb><C:/Users/jackf/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /libertine/LinBiolinumTB.pfb><C:/Users/jackf/AppData/Local/Programs/MiKTeX/font
 s/type1/public/libertine/LinLibertineT.pfb><C:/Users/jackf/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.pfb><C:/Users/jackf/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb>
-Output written on main.pdf (3 pages, 346353 bytes).
+Output written on main.pdf (3 pages, 349251 bytes).
 PDF statistics:
  169 PDF objects out of 1000 (max. 8388607)
  34 named destinations out of 1000 (max. 500000)
