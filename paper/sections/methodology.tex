@@ -1,0 +1,79 @@
+% Methodology
+% Be specific enough that someone could reproduce your work
+
+\label{sec:methodology}
+
+% Overview
+Data was collected using MediaWiki API, which provides access to articles and metadata from Wikipedia. Wikipedia data is publicly accessible and no private user data is 
+collected.To ensure a diverse and unbiased sample of articles are selected, the random generator parameter is used. The following data is retrieved: 
+
+\begin{itemize}
+    \item Extracted text content (plain text summary)
+    \item Article Title
+    \item Date of last revision
+    \item Number of revision
+    \item Number of contributors
+    \item Article text length
+    \item Number of external links
+\end{itemize}
+
+
+\subsection{Data Collection}
+
+\begin{itemize}
+    \item Tools including MediaWiki API and Python’s requests library were used. 
+    \item API Parameters used:
+    
+\begin{itemize}
+    \item “action” : “query”
+\begin{itemize}
+    \item To retrieve article metadata
+\end{itemize}
+    \item “format” : “json”
+\begin{itemize}
+    \item Ensures data parsing
+\end{itemize}
+    \item "generator" : "random"
+\begin{itemize}
+    \item Select random articles
+\end{itemize}
+    \item "prop" : "revisions|extracts|contributors|extlinks"
+\begin{itemize}
+    \item Obtains information about revisions, summaries, contributors, and sources
+\end{itemize}
+    \item "ellimit" : "max"
+\begin{itemize}
+    \item Retrieves all external links
+\end{itemize}
+    \item "rvlimit" : 1
+\begin{itemize}
+    \item Limits revision data to 1 to ensure efficiency
+\end{itemize}
+\end{itemize}
+\end{itemize}
+
+
+% Example of how to cite a dataset or tool:
+% We collected data from the Wikipedia API \cite{wikipedia-api} covering...
+
+% \subsection{Data Processing}
+
+% [Describe how you cleaned, filtered, or transformed your data]
+
+% % Example of code reference:
+% % Our data processing pipeline is available in our GitHub repository.\footnote{\url{https://github.com/yourusername/yourrepo}}
+
+% \subsection{Analysis Methods}
+
+% [Describe your analytical approach. What techniques did you use? Why?]
+
+% % If you have equations, you can include them:
+% % \begin{equation}
+% % your\_formula = here
+% % \end{equation}
+
+% \subsection{Ethical Considerations}
+% Optional: Include this if your project involves human subjects data, user behavior analysis, or if your institution requires ethics discussion. For basic Wikipedia article analysis, this may not be necessary - just ensure proper citation in your Data Collection section.
+
+% Example: All data consists of publicly available Wikipedia content accessed in compliance with \href{https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use}{Wikimedia's Terms of Use}.
+

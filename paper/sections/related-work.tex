@@ -1,0 +1,60 @@
+% Related Work
+% Organize by themes/categories, not paper-by-paper
+% Show how your work builds on, differs from, or fills gaps in existing work
+
+\label{sec:related}
+
+% Introduction to related work
+[Brief paragraph introducing the landscape of related research]
+
+% Subsection 1: First category of related work
+\subsection{Sentiment Analysis}
+
+\begin{itemize}
+    \item Language expresses opinions and emotions through sentence structure and context
+    \item Sentimental analysis looks for signs of positive or negative attitudes in a text
+The paper mainly focuses on linguistic features (tone, negation(“not great”) and intensifiers(“very happy”)) these change the meaning of a sentence completely
+    \item Sarcasm, irony, and formality make it hard for computers to tell what emotion a writer feels/means
+    \begin{itemize}
+        \item Most sentiment systems are built using machine learning or word lists (lexicons), but it can easily misread neutral writing
+    \end{itemize}
+\end{itemize}
+Using more linguistic knowledge like grammar, syntax, and context can help make sentimental analysis more accurate and less biased. 
+\url{https://www.annualreviews.org/content/journals/10.1146/annurev-linguistics-011415-040518 }
+\cite{SentimentAnalysis}
+
+
+
+% Subsection 2: Second category of related work
+\subsection{Bias in Language Models}
+
+\begin{itemize}
+    \item Bias in large language models (LLMs): how models are trained and how the output is generated
+\begin{itemize}
+    \item Data-selection bias: if a model is trained on texts that over represent certain groups, topics, or viewpoints, it’s outputs will reflect imbalances
+    \item Mis-representation, omission of certain viewpoints, or skewed sentiment towards certain groups
+\end{itemize}
+\end{itemize}
+
+Language models trained on biased internet data might misjudge the tone of neutral, factual writing or show unfair polarity towards controversial subjects. 
+Reseraches must carefully test and interpret model behavior when they’re using sentiment tools because it can lead to more damage. 
+\url{https://dl.acm.org/doi/full/10.1145/3597307 }
+
+
+\subsection{Measuring “trust”, Reliability, and Interaction of Views + Revisions}
+\begin{itemize}
+    \item Pages with high revision activity might indicatie contentiousness (less stable content) compared to pages with many views but fewer edits which might indicate that the content is stable and trustworthy
+    \item Ratio of views to revisions
+\begin{itemize}
+    \item There are degrees to stability and contention that should be measured empirically 
+    \item Not all edits are equal (some are minor dixes) and high view counts might reflect controversy rather than trust so context matters
+\end{itemize}
+\end{itemize}
+
+\url{https://ieeexplore.ieee.org/abstract/document/5365214}
+
+% Positioning your work
+\subsection{Our Work in Context}
+
+[Explain how your work differs from or builds upon existing research. What gap are you filling?]
+
