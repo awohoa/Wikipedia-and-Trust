@@ -4,8 +4,7 @@
 \label{sec:methodology}
 
 % Overview
-Data was collected using MediaWiki API, which provides access to articles and metadata from Wikipedia. Wikipedia data is publicly accessible and no private user data is 
-collected.To ensure a diverse and unbiased sample of articles are selected, the random generator parameter is used. The following data is retrieved: 
+Data was collected using MediaWiki API, which provides access to articles and metadata from Wikipedia. Wikipedia data is publicly accessible and no private user data is collected.To ensure a diverse and unbiased sample of articles are selected, the random generator parameter is used. The following data is retrieved: 
 
 \begin{itemize}
     \item Extracted text content (plain text summary)
@@ -52,6 +51,18 @@ collected.To ensure a diverse and unbiased sample of articles are selected, the 
 \end{itemize}
 \end{itemize}
 
+The study examines how the number of views and revisions correlate by:
+\begin{itemize}
+    \item Calculating ratios between different pages.
+    \item Taking these ratios to determine levels of trust.
+    \item Analyzing pages to identify emerging patterns.
+\end{itemize}
+
+
+
+
+The research project repository can be found at \href{https://github.com/awohoa/Wikipedia-and-Trust.git}{GitHub Repository}. 
+The main code file is available at \href{https://github.com/awohoa/Wikipedia-and-Trust/blob/main/src/test_wikipedia_api.py}{Source Code File}.
 
 % Example of how to cite a dataset or tool:
 % We collected data from the Wikipedia API \cite{wikipedia-api} covering...
