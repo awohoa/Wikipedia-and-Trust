@@ -7,7 +7,7 @@ s.headers.update({"User-Agent" : "test/0.0"})
 #gets the revision history and sorces count
 params = {"action" : "query", "format" : "json" , "formatversion" : 2, "meta" : "siteinfo", 
           "generator" : "random" , "grnnamespace" : 0, 
-          "prop" : "revisions|extracts|contributors|extlinks","ellimit" : "max","rvlimit" : 1, "explaintext" :1}
+          "prop" : "revisions|extracts|contributors|extlinks","ellimit" : "max","rvlimit" : "max", "explaintext" :1}
 
 outp = s.get("https://en.wikipedia.org/w/api.php",params=params).json()
 print("article " + outp["query"]["pages"][0]["title"])
