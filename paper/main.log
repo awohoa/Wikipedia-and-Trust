@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.28)  29 OCT 2025 10:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.28)  12 NOV 2025 18:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1061,9 +1061,9 @@ C:/Users/jackf/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_76g
 pa5.enc}
 
 {C:/Users/jackf/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_nh
-77jq.enc}]) (sections/methodology.tex) (sections/results.tex
+77jq.enc}]) (sections/methodology.tex
 
-) (sections/discussion.tex) (sections/conclusion.tex)
+) (sections/results.tex) (sections/discussion.tex) (sections/conclusion.tex)
 No file main.bbl.
 (sections/appendix-AI-usage.tex
 
@@ -1072,9 +1072,9 @@ Package hyperref Warning: Suppressing link with empty target on input line 9.
 
 
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 25.
+(Font)              scaled to size 9.0pt on input line 15.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 25.
+(Font)              scaled to size 7.0pt on input line 15.
 [2.2])
 
 Package natbib Warning: There were undefined citations.
@@ -1110,7 +1110,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  20927 strings out of 468079
  340341 string characters out of 5425750
- 828430 words of memory out of 5000000
+ 829710 words of memory out of 5000000
  48837 multiletter control sequences out of 15000+600000
  740754 words of font info for 228 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
@@ -1121,9 +1121,9 @@ nBiolinumT.pfb><C:/Users/jackf/AppData/Local/Programs/MiKTeX/fonts/type1/public
 s/type1/public/libertine/LinLibertineT.pfb><C:/Users/jackf/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.pfb><C:/Users/jackf/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb>
-Output written on main.pdf (3 pages, 349251 bytes).
+Output written on main.pdf (3 pages, 350263 bytes).
 PDF statistics:
- 169 PDF objects out of 1000 (max. 8388607)
+ 172 PDF objects out of 1000 (max. 8388607)
  34 named destinations out of 1000 (max. 500000)
  53457 words of extra memory for PDF output out of 61914 (max. 10000000)
 
