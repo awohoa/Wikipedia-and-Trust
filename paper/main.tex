@@ -19,7 +19,6 @@
 \usepackage{url}       % For \url{} inline links
 \usepackage{hyperref}
 \usepackage{booktabs}  % For nice tables
-
 % Configure link colors for better visibility
 % Use AtBeginDocument to override ACM template settings
 \AtBeginDocument{
@@ -57,6 +56,11 @@
 
 \maketitle
 
+% Bibliography
+\bibliographystyle{plain}
+%\bibliographystyle{ACM-Reference-Format}
+\bibliography{references}
+
 % Main sections - each in a separate file
 \section{Introduction}
 \input{sections/introduction}
@@ -80,9 +84,6 @@
 \section*{Acknowledgments}
 We thank \dots for \ldots.
 
-% Bibliography
-\bibliographystyle{ACM-Reference-Format}
-\bibliography{references}
 
 % Appendix for AI Usage Documentation
 \appendix
